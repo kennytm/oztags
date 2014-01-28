@@ -1,7 +1,9 @@
 oztags
 ======
 
-**oztags** is a program to create `tags` file for Oz 3.x source files. The generated file is designed to be used with [Tagbar](http://majutsushi.github.io/tagbar/) of Vim.
+**oztags** is a program to create `tags` file for Oz 3.x source files. The generated file is designed to be used with Vim [Tagbar](http://majutsushi.github.io/tagbar/) only.
+
+![Screenshot of oztags with Tagbar](screenshot.png)
 
 Prerequisite
 ------------
@@ -20,4 +22,5 @@ Installation
 TODO
 ----
 
-* Change the Python implementation to Oz.
+* Change the implementation from Python to Oz.
+* Display signature of procedure and methods.
